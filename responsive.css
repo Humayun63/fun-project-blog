@@ -1,0 +1,23 @@
+/* MOBILE DEVICE */
+@media only screen and (max-width:668px) {
+    /* HEADER STYLES */
+    nav,
+    .menu ul{
+        flex-direction: column;
+    }
+    .logo-image{
+        width: 20px;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    
+}
+
+/* TABLET DEVICE */
+@media only screen and (min-width:669px) and (max-width:992px) {
+    /* HEADER STYLES */
+    nav{
+        flex-direction: column;
+    }
+}

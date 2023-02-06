@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.hidden{
+    display: none;
+}
 ul{
     list-style: none;
 }
@@ -14,7 +17,10 @@ a{
     text-decoration: none;
     color: #000;
 }
-
+.flex{
+    display: flex;
+    align-items: center;
+}
 /* ----------------------- 
     HEADER STYLES
 --------------------------*/
@@ -24,24 +30,19 @@ header{
     padding: 20px 0;
 }
 nav{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 .logo{
-    display: flex;
-    align-items: center;
     gap: 10px;
 }
 .logo-image{
     width: 30px;
 }
 .menu ul{
-    display: flex;
-    align-items: center;
+    margin-top: 10px;
     gap: 15px;
 }
-.menu svg{
+ul li svg{
     width: 20px;
 }
 .menu li:hover a{
