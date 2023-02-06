@@ -1,0 +1,27 @@
+.slide-btn-1{
+    animation: sliding 10s 0.5s infinite alternate;
+}
+.slide-btn-2{
+    animation: sliding 10s 0.5s infinite alternate;
+}
+.slide-btn-3{
+    animation: sliding 10s 0.5s infinite alternate;
+}
+.slide-btn-4{
+    animation: sliding 10s 0.5s infinite alternate;
+}
+@keyframes sliding {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(-400px);
+    }
+    75%{
+        transform: translate(200px);
+    }
+    100%{
+        transform: translate(100px);
+    }
+    
+}
