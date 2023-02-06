@@ -97,7 +97,11 @@ footer img{
 }
 .social-icons{
     gap:5px;
+    margin-bottom: 10px;
 }
 .social-icons li a:hover > img{
     opacity: 1;
+}
+.footer-text-responsive{
+    display: none;
 }
